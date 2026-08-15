@@ -145,7 +145,7 @@ def Tele(ccx: str, proxies: dict = None):
         "&client_attribution_metadata[merchant_integration_subtype]=card-element"
         "&client_attribution_metadata[merchant_integration_version]=2017"
         f"&client_attribution_metadata[wallet_config_id]={wallet_config_id}"
-        f"&key={stripe_key}""
+        f"&key={stripe_key}"
     )
 
     # ----- Stripe Headers (exact from untitled.txt) -----
